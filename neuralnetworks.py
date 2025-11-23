@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score
 
-# Assume X and y are your full dataset features and labels (loaded as pandas DataFrame/Series)
+
 
 # Encode categorical columns, example:
 cat_cols = ['proto', 'service']
